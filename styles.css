@@ -44,3 +44,14 @@ nav{
 #medicines{
     background-color: #e6efe6;
 }
+.items{
+    display: inline-table;
+    height: 350px;
+    width: 300px;
+    background-color: white;
+}
+.items img{
+    height: 70%;
+    width: 90%;
+    object-fit: cover;
+}
