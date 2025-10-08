@@ -8,7 +8,7 @@
     <body>
         <!-- the header section -->
         <header>
-            <h1>remedyGo | Your Online Pharmacy</h1>
+            <h1 class="heading">remedy<span>Go</span></h1>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="add.html">Add Medicine</a>
@@ -20,16 +20,41 @@
         <main>
             <section id="medicines">
                 <h2>Instock Medicine</h2>
-                <!-- Search / filter / simple UX -->
-                <div class="search_row">
+                <!-- Search / filter -->
+                <div class="search_bar">
                     <input id="search_input" type="search" placeholder="Search medicines (name or description)" />
-                    <button id="clear_search_btn" class="btn small">Clear</button>
+                    <button class="clear_btn">Clear</button>
                 </div>
+                <!-- container where to place the medicine -->
+                <div class="items"></div>
             </section>
         </main>
         <!-- the footer section -->
         <footer>
-            <p>© 2025 Remedy Go. All rights reserved.</p>
+            <div class="first">
+                <h3>About us</h3>
+                <p>RemedyGo is one the leading pharmacies in the state, open 24hrs to ensure medicine is available
+                    to you at any time.
+                </p>
+            </div>
+            <div class="second">
+                <h3>Quick links</h3>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="add.html">Add Medicine</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <div class="third">
+                <h3>Contacts</h3>
+                <p>Email: <a href="mailto:support@remedygo.com">support@remedygo.com</a></p>
+                <p>Phone: +254 700 123 456</p>
+                <p>Location: Nairobi, Kenya</p>
+            </div>
+            <div class="last">
+                <p>© 2025 Remedy Go — Truly for your care</p>
+            </div>
         </footer>
     </body>
 </html>
