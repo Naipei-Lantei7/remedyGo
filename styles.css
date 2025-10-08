@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    /* ensure body is as high and wide as the page */
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    color: #123212; 
+    background-color:  #f7faf7;
+}
+header{
+    font-size: xx-large;
+    background-color:  #ffffff; 
+    border-bottom: 3px solid #e6efe6; 
+    height: 8rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    gap: 10px; 
+}
+h1{
+    color: #0b5b23;
+    font-size: xx-large;
+   
+}
+h1 span{
+    font-size: xx-large;
+    color: #2ea44f
+}
+nav{
+    display: flex; 
+    gap: 14px; 
+    align-items: center;
+}
