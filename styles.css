@@ -11,7 +11,6 @@ body{
     background-color:  #f7faf7;
 }
 header{
-    font-size: xx-large;
     background-color:  #ffffff; 
     border-bottom: 3px solid #e6efe6; 
     height: 8rem;
@@ -30,7 +29,15 @@ h1 span{
     color: #2ea44f
 }
 nav{
-    display: flex; 
-    gap: 14px; 
-    align-items: center;
+    font-size: large;
+}
+.nav_link{
+    color: #234b2a; 
+    font-weight: 600; 
+    padding: 8px 10px; 
+    border-radius: 6px;
+}
+.nav_link:hover{ 
+    background: #e6f6e9; 
+    color: #0b5b23; 
 }
