@@ -21,15 +21,17 @@ header{
     align-items: center; 
     justify-content: space-evenly; 
     gap: 10px; 
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1{
     color: #0b5b23;
-    font-size: xx-large;
+    /* font-size: xx-large; */
     letter-spacing: 1px;
    
 }
 h1 span{
-    font-size: xx-large;
+    /* font-size: xx-large; */
     color: #2ea44f;
 }
 nav{
@@ -49,6 +51,9 @@ nav a{
     background-color: #e6efe6;
     text-align: center;
     font-size: large;
+}
+.medicines h2{
+    font-size: xx-large;
 }
 .search_bar{
     /* display: flex; 
@@ -76,11 +81,11 @@ nav a{
 }
 .items{
   background: white;
-  border: 1px solid #cfcfcf;
+  /* border: 1px solid #cfcfcf; */
   border-radius: 10px;
   width: 250px;
   padding: 15px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
 }
 .items img{
     height: 70%;
