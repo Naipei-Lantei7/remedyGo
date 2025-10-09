@@ -45,8 +45,24 @@ nav a{
     background: #e6f6e9; 
     color: #0b5b23; 
 }
-#medicines{
+.medicines{
     background-color: #e6efe6;
+    text-align: center;
+    font-size: large;
+}
+.search_bar{
+    /* display: flex; 
+    gap: 10px;  */
+    margin-bottom: 18px; 
+    align-items: center;
+    /* margin-left: 20%; */
+}
+#search_input{
+    width: 950px;
+    padding: 10px 12px; 
+    border-radius: 25px; 
+    /* border: 1px solid #07660e; */
+    text-align: center;
 }
 .pill_container {
   display: flex;
@@ -91,4 +107,28 @@ footer{
 .last{
     text-align: center;
     margin-top: 2rem;
+}
+.about{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    /* white-space: nowrap; */
+    padding: 1%;
+    font-size: large;
+}
+.about h2{
+    font-weight: bold;
+    font-size: x-large;
+}
+.about p{
+    margin-bottom: 5px;
+}
+.about img{
+    height: 400px;
+    width: 950px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.mission_vision{
+    margin-top: 1%;
 }
