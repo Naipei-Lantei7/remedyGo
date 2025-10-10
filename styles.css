@@ -68,14 +68,16 @@ nav a{
     border-radius: 25px; 
     /* border: 1px solid #07660e; */
     text-align: center;
+    border: none;
 }
 .clear_btn{
-    width: 100px;
-    height: 30px;
+    width: 70px;
+    height: 25px;
     background-color: #2ea44f;
     color: white;
-    border-radius: 25%;
+    border-radius: 15%;
     font-size: large;
+    border: none;
 }
 .pill_container {
   display: flex;
