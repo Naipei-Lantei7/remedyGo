@@ -1,4 +1,4 @@
-// Grab form and input elements
+// Grab form and input elements as per their IDs
 const signup_form = document.getElementById('signup_form');
 const full_name = document.getElementById('full_name');
 const email = document.getElementById('email');
