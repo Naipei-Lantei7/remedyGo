@@ -129,7 +129,7 @@ nav a{
     white-space: nowrap;
     /*
     adding a background colour for distinction*/
-    background-color: #0b5b23;
+    background-color: rgba(185, 17, 17, 0.904);
     /*
     adding a text colour for visibility*/
     color: white;
