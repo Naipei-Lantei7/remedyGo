@@ -105,6 +105,8 @@ nav a{
 }
 .items.name{
     font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    
 }
 .price{
     /*
@@ -117,6 +119,8 @@ nav a{
     height: 20px;
     width: 90px;
     border-radius: 10%;
+    font-size: larger;
+    font-weight: bold;
     /*
     pushing the text as far back as possible*/
     transform: translateY(-100%); 
@@ -125,7 +129,7 @@ nav a{
     white-space: nowrap;
     /*
     adding a background colour for distinction*/
-    background-color: brown;
+    background-color: #0b5b23;
     /*
     adding a text colour for visibility*/
     color: white;
