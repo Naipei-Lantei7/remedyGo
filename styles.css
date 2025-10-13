@@ -112,7 +112,7 @@ nav a{
     /*
     place the pricetag at the left of the item*/
     position: absolute;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     padding: 7px;
     left: 0%;
     top: 100%;
@@ -188,6 +188,20 @@ footer{
     object-fit: cover;
 }
 .mission_vision{
+    margin-top: 1%;
+}
+.contact{
+    padding: 1%;
+    margin-bottom: 2rem;
+    font-size: large;
+}
+.contact h2{
+    color: #234b2a;
+}
+.contact ul li{
+    padding: 5px;
+}
+.extra_contact{
     margin-top: 1%;
 }
 .signup_section {
