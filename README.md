@@ -88,3 +88,4 @@ The JS file controls all page interactivity using **DOM manipulation** — no fr
 ##  How To Run
 
 1. Clone or download this repo:
+2. https://github.com/Naipei-Lantei7/remedyGo
